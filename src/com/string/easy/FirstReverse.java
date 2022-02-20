@@ -34,11 +34,19 @@ public class FirstReverse {
 	}
 
 	public static String firstReverse2(String str) {
-		return new StringBuilder(str).reverse().toString();
+		String result = "";
+		   int len = str.length()-1;
+		   for(int i = 0; i< str.length(); i++)
+		   {
+		       result = result + str.charAt(len-i);
+		   }
+		       
+		    return result;
 	}
 
 	public static String firstReverse3(String str) {
-		return new StringBuilder(str).reverse().toString();
+		if (str.length() == 1) return str;
+	    return str.charAt(str.length() - 1) + firstReverse3(str.substring(0, str.length() - 1));
 	}
 
 }
