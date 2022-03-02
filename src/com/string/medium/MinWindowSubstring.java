@@ -1,4 +1,4 @@
-package kcom.string.medium;
+package com.string.medium;
 
 /*
  * Min Window Substring
@@ -12,6 +12,6 @@ Input: new String[] {"aaffhkksemckelloe", "fhea"}
 Output: affhkkse
 */
 
-public class MinWindowSubstring {
+public class MinWindowSubstringTest {
 
 }

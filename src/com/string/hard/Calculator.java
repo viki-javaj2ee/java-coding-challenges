@@ -9,6 +9,6 @@ Output: 15
 Input: "6/3-1"
 Output: 1
 */
-public class Calculator {
+public class CalculatorTest {
 
 }
